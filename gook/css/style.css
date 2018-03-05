@@ -1,0 +1,89 @@
+*{ margin: 0%;
+padding: 0%;
+font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;        
+    background-color:#212121;
+    height: 56px;
+    }
+
+.gook{
+    margin-left: 71px;
+    font-size: 28px;
+    color: #4c4c4c;
+    margin-top: -54px;
+  }
+
+  .logo {
+      height: 57px;
+      width: 62px;
+  }
+
+  .row {
+background: #4c4c4c;
+width: 1367px;
+height: 42PX;
+font-size: 25px;
+
+}
+
+
+.btns{
+    display: flex;
+    background-color:  #F2F2F2;     
+}
+
+.btns div button{
+    background-color:  #F2F2F2;
+    border: none;
+   }
+
+.books {
+    background-image:url(../img/books.png);
+    height: 34px;
+    width: 48px ;  
+    margin-left: 262px;
+}
+
+.film {
+    background-image:url(../img/film.png);
+    height: 34px;
+    width: 48px;   
+    margin-left: 197px;
+}
+
+.joysti {
+    background-image:url(../img/joystick.png);
+    height: 32px;
+    width: 32px;   
+     margin-left: 197px;
+
+}
+
+.yang{
+    background-image:url(../img/yang.png);
+    height: 32px;
+    width: 37px;
+    margin-left: 197px;
+}
+.guia {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5; 
+}
+
+.livros {
+   margin-left: 242px;
+}
+.filmes {
+    margin-left: 167px;
+}
+.games {
+    margin-left: 187px;
+}
+.animes {
+    margin-left: 151px
+}
